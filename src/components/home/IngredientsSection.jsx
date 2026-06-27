@@ -2,27 +2,25 @@
  * IngredientsSection - Shows ingredient info on the Home page.
  * Layout matches screenshot: image LEFT, heading + text RIGHT.
  */
+import food from '../../public/assets/homepage/food.png';
+
 function IngredientsSection() {
   return (
-    <section className="bg-gray-50 py-12 w-full">
-      <div className="w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <section className="w-full max-w-screen-2xl mx-auto bg-gray-50 rounded-3xl py-6 md:py-6 px-2 sm:px-6 lg:px-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center max-w-6xl mx-auto">
           {/* Image - Left */}
-          <div className="bg-gray-700 rounded-lg h-56 flex items-center justify-center">
-            <span className="text-gray-400 text-sm">🧑‍🍳 Chef Image</span>
+          <div className="overflow-hidden rounded-3xl bg-gray-900 aspect-[4/3] shadow-lg">
+            <img src={food} alt="Food" className="w-full h-full object-cover" />
           </div>
-          <div>
-            <h2 className="text-2xl font-display font-bold text-gray-900 mb-4">
+          <div className="max-w-xl">
+            <h2 className="text-2xl md:text-2xl font-display font-bold text-gray-900 mb-4">
               Ingredients
             </h2>
-            <p className="text-gray-600 text-sm leading-relaxed">
-              We at Crafters good products. We have to explore Avant-gardening
-              as a key art. whether to be changed from the family, In creating a
-              taste, served, Low fat, Corn, Herbs, Basil, Red onion and More.
-              Each hand-Made is better than the last.
+            <p className="text-gray-600 text-sm lg:text-xl md:text-base leading-7">
+              Fresh toppings, clean flavors, and a simple build that keeps the
+              pizza balanced from the first bite to the last.
             </p>
           </div>
-        </div>
       </div>
     </section>
   );

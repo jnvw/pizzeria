@@ -2,15 +2,16 @@ import React from 'react';
 import HeroSection from '../components/home/HeroSection';
 import IngredientsSection from '../components/home/IngredientsSection';
 import ChefsSection from '../components/home/ChefsSection';
-import DeliverySection from '../components/home/DeliverySection';
+import TimerSection from '../components/home/TimerSection';
 
 const HomePage = () => {
   return (
-    <main className="w-full flex flex-col items-center px-8 md:px-12 lg:px-16 pt-24 pb-12">
+    <main className="w-full flex flex-col items-center px-4 sm:px-6 lg:px-6 pt-12 pb-12 gap-10 md:gap-14">
       <HeroSection />
       <IngredientsSection />
       <ChefsSection />
-      <DeliverySection />
+      <TimerSection />
+
     </main>
   );
 };
