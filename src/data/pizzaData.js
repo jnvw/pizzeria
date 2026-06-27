@@ -3,6 +3,7 @@
  * Each pizza object contains details like name, description, price (INR),
  * type (veg/non-veg), ingredients, and available toppings.
  */
+import pizzaImage from '../public/assets/toppins/Pizza_Base.png';
 const pizzaData = [
   {
     id: 'paneer-tikka',
@@ -10,7 +11,7 @@ const pizzaData = [
     description:
       'This is popular Italian pizza flavoured with marinated tikka and paneer',
     price: 290,
-    image:'./src/assets/pizza.png',
+    image: pizzaImage,
     type: 'veg',
     ingredients: [
       'dough',
@@ -34,7 +35,7 @@ const pizzaData = [
     description:
       'This is popular Italian pizza flavoured with light sugary taste and creamy touch',
     price: 360,
-    image: './src/assets/pizza.png',
+    image: pizzaImage,
     type: 'non-veg',
     ingredients: [
       'deep dish pizza',
@@ -59,7 +60,7 @@ const pizzaData = [
     description:
       'This is popular Italian pizza flavoured with creamed garlic with multiple herbs topped up with sweet corn',
     price: 310,
-    image: './src/assets/pizza.png',
+    image: pizzaImage,
     type: 'veg',
     ingredients: [
       'deep dish pizza',
@@ -84,7 +85,7 @@ const pizzaData = [
     description:
       'This is popular Italian pizza flavoured with unique Greek dressing topped up with keema and meat ball',
     price: 400,
-    image: './src/assets/pizza.png',
+    image: pizzaImage,
     type: 'non-veg',
     ingredients: [
       'low carb pizza dough',
@@ -110,7 +111,7 @@ const pizzaData = [
     description:
       'This is popular Italian pizza flavoured with black cubed flavored butter. A top spongy base which gives unique taste with multiple toppings',
     price: 625,
-    image: './src/assets/pizza.png',
+    image: pizzaImage,
     type: 'non-veg',
     ingredients: [
       'deep dish pizza',
@@ -137,7 +138,7 @@ const pizzaData = [
     description:
       'This is popular Italian pizza flavoured with unique Greek dressing topped up with keema and meat ball',
     price: 400,
-    image: './src/assets/pizza.png',
+    image: pizzaImage,
     type: 'non-veg',
     ingredients: [
       'low carb pizza dough',

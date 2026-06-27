@@ -2,85 +2,95 @@
  * Ingredients data for the custom pizza builder.
  * Each ingredient has an id, name, price (INR), and image path.
  */
-
+import pepperoni from '../public/assets/toppins/Pepperoni.png';
+import mushroom from '../public/assets/toppins/Mushroom.png';
+import blackOlive from '../public/assets/toppins/Black_Olive.png';
+import capsicum from '../public/assets/toppins/Capsicum.png';
+import jalapeno from '../public/assets/toppins/Jalapeno.png';
+import chicken from '../public/assets/toppins/Chicken.png';
+import onion from '../public/assets/toppins/Onion.png';
+import tomato from '../public/assets/toppins/Tomato.png';
+import redChilliFlakes from '../public/assets/toppins/Red_Chilli_Flakes.png';
+import paneer from '../public/assets/toppins/Paneer.png';
+import sweetCorn from '../public/assets/toppins/Sweet_Corn.png';
 const ingredientsData = [
   {
     id: 'pepperoni',
     name: 'Pepperoni',
     price: 110,
-    image: '/images/ingredients/pepperoni.png',
+    image: pepperoni,
   },
   {
     id: 'mushroom',
     name: 'Mushroom',
     price: 28,
-    image: '/images/ingredients/mushroom.png',
+    image: mushroom,
   },
   {
     id: 'black-beans',
     name: 'Black beans',
     price: 48,
-    image: '/images/ingredients/black-beans.png',
+    image: blackOlive,
   },
   {
     id: 'black-olive',
     name: 'Black olive',
     price: 0,
-    image: '/images/ingredients/black-olive.png',
+    image: blackOlive,
   },
   {
     id: 'green-olive',
     name: 'Green olive',
     price: 50,
-    image: '/images/ingredients/green-olive.png',
+    image: onion,
   },
   {
     id: 'jalapeno',
     name: 'Jalapeno',
     price: 48,
-    image: '/images/ingredients/jalapeno.png',
+    image: jalapeno,
   },
   {
     id: 'chicken',
     name: 'Chicken',
     price: 60,
-    image: '/images/ingredients/chicken.png',
+    image: chicken,
   },
   {
     id: 'tomato',
     name: 'Tomato',
     price: 20,
-    image: '/images/ingredients/tomato.png',
+    image: tomato,
   },
   {
     id: 'red-paprika',
     name: 'Red paprika',
     price: 50,
-    image: '/images/ingredients/red-paprika.png',
+    image: redChilliFlakes,
   },
   {
     id: 'paneer',
     name: 'Paneer',
     price: 45,
-    image: '/images/ingredients/paneer.png',
+    image: paneer,
   },
   {
     id: 'fried-onion',
     name: 'Fried Onion',
     price: 18,
-    image: '/images/ingredients/fried-onion.png',
+    image: onion,
   },
   {
     id: 'capsicum',
     name: 'Capsicum',
     price: 18,
-    image: '/images/ingredients/capsicum.png',
+    image: capsicum,
   },
   {
     id: 'sweet-corn',
     name: 'Sweet corn',
     price: 28,
-    image: '/images/ingredients/sweet-corn.png',
+    image: sweetCorn,
   },
 ];
 
